@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">KM Test App</string>
+    <string name="second_title">Second Screen</string>
+    <string name="third_title">Third Screen</string>
+
+    <!--Main Activity-->
+    <string name="desc_photo">Photo Icon</string>
+    <string name="name_hint">Name</string>
+    <string name="palindrome_hint">Palindrome</string>
+    <string name="desc_check">CHECK</string>
+    <string name="desc_next">NEXT</string>
+    <string name="error_name">Name should be filled</string>
+    <string name="error_palindrome">Palindrome should be filled</string>
+    <string name="is_palindrome">isPalindrome</string>
+    <string name="is_not_palindrome">not palindrome</string>
+
+    <!--Second Activity-->
+    <string name="desc_title">Second Screen</string>
+    <string name="desc_welcome">Welcome</string>
+    <string name="desc_name">Name</string>
+    <string name="desc_selected">Selected User Name</string>
+    <string name="desc_choose">Choose a User</string>
+
+    <!--Third Activity-->
+    <string name="desc_image">User Image</string>
+    <string name="firstname">Firstname</string>
+    <string name="lastname">Lastname</string>
+    <string name="email">EMAIL@EMAIL.COM</string>
+</resources>

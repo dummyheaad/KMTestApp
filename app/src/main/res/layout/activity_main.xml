@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".ui.MainActivity">
+
+    <ImageView
+        android:id="@+id/iv_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/ic_photo"
+        android:contentDescription="@string/desc_photo"/>
+
+    <EditText
+        android:id="@+id/ed_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:padding="15dp"
+        android:background="@drawable/rounded_edittext"
+        android:hint="@string/name_hint"
+        android:fontFamily="@font/poppins_semi_bold_600"
+        android:textColorHint="@color/grey"/>
+
+    <EditText
+        android:id="@+id/ed_palindrome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/rounded_edittext"
+        android:hint="@string/palindrome_hint"
+        android:padding="15dp"
+        android:fontFamily="@font/poppins_semi_bold_600"
+        android:textColorHint="@color/grey"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/rounded_button"
+        android:fontFamily="@font/poppins_medium_500"
+        android:text="@string/desc_check"
+        android:textColor="@color/white"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/rounded_button"
+        android:fontFamily="@font/poppins_medium_500"
+        android:text="@string/desc_next"
+        android:textColor="@color/white"/>
+
+</LinearLayout>
